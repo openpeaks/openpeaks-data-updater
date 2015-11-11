@@ -1,0 +1,31 @@
+{
+  "name": "openpeaks-data-updater",
+  "version": "0.0.1",
+  "description": "Data updater",
+  "main": "./lib/app.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "start": "node ./lib/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openpeaks/openpeaks-data-updater.git"
+  },
+  "keywords": [
+    "openpeaks",
+    "app",
+    "data-updater"
+  ],
+  "author": "Dumitru Cantea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/openpeaks/openpeaks-data-updater/issues"
+  },
+  "homepage": "https://github.com/openpeaks/openpeaks-data-updater",
+  "dependencies": {
+    "bluebird": "^3.0.5",
+    "dotenv": "^1.2.0",
+    "lodash": "^3.10.1",
+    "request": "^2.65.0"
+  }
+}
